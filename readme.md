@@ -1,12 +1,10 @@
-# Chrome Extension boilerplate created with React Typescript
+# Snow Chrome Extension
 
-## Getting started
+A small extension for making the browser a bit more christmassy ❄️
 
-Create a project based on this boilerplate.
+![2020-10-22 18 18 26](https://user-images.githubusercontent.com/31168035/96901117-21845200-1493-11eb-8af8-32972b1efe04.gif)
 
-```
-$ npx degit https://github.com/sivertschou/react-typescript-chrome-extension-boilerplate.git#christmas <project-name>
-```
+## Installation
 
 Navigate to the project directory and install the dependencies.
 
