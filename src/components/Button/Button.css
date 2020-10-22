@@ -1,0 +1,16 @@
+.snowButton {
+  border: 0;
+  background-color: #1a1d22;
+  color: white;
+  padding: 5px 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.buttonContainer {
+  display: flex;
+  background-color: #282c34;
+  color: white;
+  min-width: 150px;
+  padding: 10px;
+}
