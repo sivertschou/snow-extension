@@ -18,10 +18,14 @@ const sendSnowStatus = (snowing: boolean) => {
 
 let snowing = false;
 
+// Get locally stored value
 chrome.storage.local.get("snowing", (res) => {
-  snowing = !res ? false : true;
+  if (res["snowing"]) {
+    snowing = true;
+  } else {
+    snowing = false;
+  }
 });
-chrome.storage.local.set({ snowing: snowing });
 
 chrome.runtime.onMessage.addListener((message: MessageTypes) => {
   switch (message.type) {
